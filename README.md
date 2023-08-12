@@ -2,9 +2,6 @@
 
 This repository contains a simple multithreading example implemented using C++'s `std::thread`, `std::future`, and related synchronization primitives. The program demonstrates the usage of a basic thread pool called `Simple_Thread_Pool` to concurrently execute tasks.
 
-## Author
-- Szymon Siąkała
-
 ## Description
 
 The provided code demonstrates a basic implementation of a thread pool using C++ standard library features. The `Simple_Thread_Pool` class manages a fixed number of worker threads that can execute tasks concurrently. Tasks are added to the pool using the `post` method, and the results are collected using `std::future`.
